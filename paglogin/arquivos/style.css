@@ -1,0 +1,117 @@
+*{
+    background-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(50, 50, 50);;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    color:black;
+    margin: 0 auto;
+}
+.login > h1{
+    padding-top: 5%;
+    
+}
+.login > h1, label{
+    background-color: #ffffff;
+    margin-left: 50px;
+}
+.login > label, button{
+    font-size: 14px;
+    display:block;
+}
+.login > label, input{
+    margin-left: 50px;
+}
+.login > button{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(142, 142, 230);
+    border: none;
+}
+.login > label{
+    padding-bottom: 5px;
+}
+.login > input{
+    width: 75%;
+    padding-top: 20px;
+    border-radius: 30px;
+    opacity: 0.5;
+    border: none;
+    color:black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.user{
+    padding-top: 40px;
+}
+.pass{
+    padding-top: 5px;
+}
+button:hover{
+    background-color:rgb(79, 79, 177);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login > h1::after{
+    content: '';
+    display:block;
+    width: 75%;
+    height: 3px;
+    background-color:rgb(142, 142, 230);
+}
+input:focus{ /*qnd esta sendo usado*/
+    opacity: 0.85;
+}
+.cadastro > p{
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20%;
+}
+.cadastro > p > a{
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    color:black;
+}
+.cadastro > p::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 3px;
+    background-color: rgb(142, 142, 230);
+    margin: 0 auto;
+    margin-bottom: 10px ;
+}
+.cadastro > p > a:hover{
+    text-decoration: underline;
+    color: rgb(63, 63, 152);
+}
+.externos{
+    background-color:white;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.externos span{
+    background-color: white;
+}
+.conf, .home{
+    background-color: white;
+}

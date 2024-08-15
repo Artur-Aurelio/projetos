@@ -1,0 +1,145 @@
+/*
+:root {
+é a "raiz da arvore"(tudo aqui pode ser aplicado em todo o site)
+--variavel: algo;
+--fontprincipal: arial;
+--fontcor: white;
+
+--cor01:red;
+}
+
+body{
+font-family: var(--fontprincipal);
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face{
+    src: url(../fontes/idroid.otf);
+    font-family: 'Idroid';
+}
+.cabecario{
+    background-image: linear-gradient(to bottom, #3CD883, #0e3721);
+    color: white;
+}
+.cabecario > h1, p{
+    text-align: center;
+    padding-top: 20px;
+}
+.cabecario > p{
+    width: 30%;
+    margin: 0 auto;
+}
+.cabecario nav{
+    padding: 10px;
+}
+.links{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+.links:hover{
+    background-color: #3CD883;
+    color: black;
+    transition: 0.25s;
+}
+.principal{
+    background-color: rgb(225, 225, 215);
+    min-width: 280px;
+}
+.central{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+}
+.central a{
+    background-color: #3CD883;
+    padding: 5px;
+}
+.central h2{
+    font-family: 'Idroid';
+    padding: 15px;
+    margin-bottom: -10px;
+}
+.central h4{
+    background-image: linear-gradient(to right,  #3CD883, white);
+    font-size: 18px;
+    font-family: 'Idroid';
+    margin-bottom: -10px;
+}
+.central p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 1cm;
+    word-spacing: 0.1cm;
+    line-height: 0.7cm;
+}
+.imagem{
+    display: flex;
+    margin: 0 auto;
+}
+.img1{
+    width: 90%;
+}
+.img2{
+    width: 90%;
+    margin-top: 10px;
+}
+.secaovideo{
+    background-image: linear-gradient(to bottom, #144f30, #0e3721);
+    height: 550px;
+    display: flex;
+}
+.video{
+    margin: 22px auto;
+    width: 90%;
+    height: 500px;
+}
+.tabela{
+    margin-top: 15px;
+    background-color: #3CD883;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px 5px rgba(0, 0, 0, 0.468);
+    font-size: 18px;
+    padding-bottom:5px;
+}
+.topotabela{
+    background-color: #144f30;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-radius: 15px 15px 0 0;
+}
+.info{
+    padding: 0 10px;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.lista li{
+    list-style: none;
+    margin:5px 200px 0 20px;
+}
+.lista li::before{
+    content: '\2714';
+    padding-left: 4px;
+}
+.elemento{
+    text-decoration: underline;
+}
+strong{
+    color: #17492d;
+}
+a{
+    color: #1a3626;
+    font-weight: bold;
+}
