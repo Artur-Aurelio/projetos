@@ -38,7 +38,7 @@ font-family: var(--fontprincipal);
 }
 .links{
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: clamp(5px, 1.2vw, 18px);/*18px*/
     color: white;
     border-radius: 5px;
 }
@@ -69,7 +69,7 @@ font-family: var(--fontprincipal);
 }
 .central h4{
     background-image: linear-gradient(to right,  #3CD883, white);
-    font-size: 18px;
+    font-size: clamp(5px, 1.2vw, 18px);
     font-family: 'Idroid';
     margin-bottom: -10px;
 }
@@ -106,14 +106,14 @@ font-family: var(--fontprincipal);
     background-color: #3CD883;
     border-radius: 15px;
     box-shadow: 1px 3px 6px 5px rgba(0, 0, 0, 0.468);
-    font-size: 18px;
+    font-size: clamp(5px, 1.2vw, 18px);
     padding-bottom:5px;
 }
 .topotabela{
     background-color: #144f30;
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: clamp(5px, 1.2vw, 25px);
     padding-bottom: 10px;
     border-radius: 15px 15px 0 0;
 }
