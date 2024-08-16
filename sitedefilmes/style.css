@@ -1,47 +1,57 @@
-:root{
---fontprinc: "Poppins", Arial;
---cor01: #9BF2EA;
---cor02: #41BFB3;
---cor03: #2A8C82;
---cor04: #275950;
+:root {
+    --fontprinc: "Poppins", Arial;
+    --cor01: #9BF2EA;
+    --cor02: #41BFB3;
+    --cor03: #2A8C82;
+    --cor04: #275950;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: var(--fontprinc);
     color: white;
 }
+
 /*definir que o documento ocupe 100% da tela na vertical (precisa colocar em todos q tu quer q ocupe 100%)*/
-body, html{
+body,
+html {
     height: 100%;
 }
-.container{
+
+.container {
     display: flex;
     height: 100%;
 }
-.lateral{
+
+.lateral {
     background-color: rgb(34, 34, 34);
     width: 15%;
     height: 100%;
 }
-.lateral h1{
+
+.lateral h1 {
     text-align: center;
     padding-top: 20%;
-    font-size: 20px
+    font-size: clamp(5px, 1.4vw, 20px);
 }
-.botoes li{
+
+.botoes li {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: clamp(5px, 1.2vw, 18px);
+    /*deixar a font responsiva (min, padrao, max)*/
     padding: 5%;
     margin: 20px;
     list-style-type: none;
     text-align: justify;
 }
-.caixapesquisa{
+
+.caixapesquisa {
     text-align: center;
 }
-.pesquisa{
+
+.pesquisa {
     margin-top: 10px;
     width: 70%;
     padding: 2% 3%;
@@ -49,51 +59,49 @@ body, html{
     border-radius: 20px;
     color: black;
 }
-.principal{
+
+.principal {
     background: linear-gradient(to bottom, #41BFB3, #275950);
     width: 100%;
     height: 100%;
     align-content: center;
 }
-.central > h1{
+
+.central>h1 {
     text-align: center;
     padding: 2%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: clamp(5px, 2vw, 32px);
     background-color: #2A8C82;
 }
-.imagens{
+
+.imagens {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.imagens > img{
-    width: 150px;
-    height: 450px;
+
+.imagens>img {
+    width: 10vw;
+    height: 30vw;
     object-fit: cover;
     margin: 1px;
     border: 3px solid white;
     border-radius: 5px;
     transition: 0.5s;
 }
-.img:hover{
+
+.img:hover {
     width: 300px;
 }
-.botao:hover{
+
+.botao:hover {
     background-color: rgb(254, 252, 252);
     color: black;
     border-radius: 5px;
     cursor: pointer;
 }
-.pesquisa:hover{
-    cursor: pointer;    
-}
 
-@media screen and (max-width: 1390px){
-    .titulo{
-        font-size: 15px;
-    }
-    .botao{
-        font-size: 13px;
-    }
+.pesquisa:hover {
+    cursor: pointer;
 }
