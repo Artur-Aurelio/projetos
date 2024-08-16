@@ -1,6 +1,5 @@
 :root{
 --fontprinc: "Poppins", Arial;
---fontconf: clamp(10px, 20vw, 20px);
 --cor01: #9BF2EA;
 --cor02: #41BFB3;
 --cor03: #2A8C82;
@@ -28,7 +27,7 @@ body, html{
 .lateral h1{
     text-align: center;
     padding-top: 20%;
-    font-size: var(--fontconf);
+    font-size: 20px
 }
 .botoes li{
     text-align: center;
@@ -89,6 +88,12 @@ body, html{
 .pesquisa:hover{
     cursor: pointer;    
 }
-/*
-.caixapesquisa::after{
-    content: '\1F50E'; /*colocando aquele emoji*/
+
+@media screen and (max-width: 1390px){
+    .titulo{
+        font-size: 15px;
+    }
+    .botao{
+        font-size: 13px;
+    }
+}
