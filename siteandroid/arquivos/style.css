@@ -41,7 +41,7 @@ p {
 .cabecario>p {
     width: 30%;
     margin: 0 auto;
-    font-size: clamp(12px, 1.2vw, 16px);
+    font-size: clamp(10px, 1.2vw, 16px);
 }
 
 .cabecario nav {
@@ -220,6 +220,6 @@ a {
 
 @media screen and (max-width: 600px) {
     .cabecario>p {
-        width: 50%;
+        width: 70%;
     }
 }
