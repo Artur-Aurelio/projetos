@@ -12,136 +12,221 @@ body{
 font-family: var(--fontprincipal);
 }
 */
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-@font-face{
+
+@font-face {
     src: url(../fontes/idroid.otf);
     font-family: 'Idroid';
 }
-.cabecario{
+
+.cabecario {
     background-image: linear-gradient(to bottom, #3CD883, #0e3721);
     color: white;
 }
-.cabecario > h1, p{
+
+.cabecario>h1,
+p {
     text-align: center;
     padding-top: 20px;
 }
-.cabecario > p{
+
+.cabecario>h1 {
+    font-size: clamp(15px, 2vw, 30px);
+}
+
+.cabecario>p {
     width: 30%;
     margin: 0 auto;
+    font-size: clamp(12px, 1.2vw, 16px);
 }
-.cabecario nav{
+
+.cabecario nav {
     padding: 10px;
 }
-.links{
+
+.links {
     padding: 10px 20px;
-    font-size: clamp(5px, 1.2vw, 18px);/*18px*/
+    font-size: clamp(10px, 1.2vw, 18px);
+    /*18px*/
     color: white;
     border-radius: 5px;
 }
-.links:hover{
+
+.links:hover {
     background-color: #3CD883;
     color: black;
     transition: 0.25s;
 }
-.principal{
+
+.principal {
     background-color: rgb(225, 225, 215);
     min-width: 280px;
 }
-.central{
+
+.central {
     background-color: white;
     width: 80%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 20px;
 }
-.central a{
+
+.central a {
     background-color: #3CD883;
     padding: 5px;
 }
-.central h2{
+
+.central h2 {
     font-family: 'Idroid';
     padding: 15px;
     margin-bottom: -10px;
 }
-.central h4{
-    background-image: linear-gradient(to right,  #3CD883, white);
-    font-size: clamp(5px, 1.2vw, 18px);
+
+.central h4 {
+    background-image: linear-gradient(to right, #3CD883, white);
+    font-size: clamp(15px, 1.2vw, 18px);
     font-family: 'Idroid';
     margin-bottom: -10px;
 }
-.central p{
+
+.central p {
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 1cm;
     word-spacing: 0.1cm;
     line-height: 0.7cm;
 }
-.imagem{
+
+.secao p {
+    font-size: clamp(10px, 1.2vw, 18px);
+}
+
+.imagem {
     display: flex;
     margin: 0 auto;
 }
-.img1{
+
+.img1 {
     width: 90%;
 }
-.img2{
+
+.img2 {
     width: 90%;
     margin-top: 10px;
 }
-.secaovideo{
+
+.secaovideo {
     background-image: linear-gradient(to bottom, #144f30, #0e3721);
     height: 550px;
     display: flex;
 }
-.video{
+
+.video {
     margin: 22px auto;
     width: 90%;
     height: 500px;
 }
-.tabela{
+
+.tabela {
     margin-top: 15px;
     background-color: #3CD883;
     border-radius: 15px;
     box-shadow: 1px 3px 6px 5px rgba(0, 0, 0, 0.468);
     font-size: clamp(5px, 1.2vw, 18px);
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.topotabela{
+
+.topotabela {
     background-color: #144f30;
     color: white;
     font-weight: bold;
     padding-bottom: 10px;
     border-radius: 15px 15px 0 0;
 }
-.topotabela > p{
-    font-size: clamp(5px, 1.4vw, 25px);
+
+.topotabela>p {
+    font-size: clamp(12px, 1.4vw, 25px);
 }
-.info{
+
+.info {
     padding: 0 10px;
+    background-color: yellow;
 }
-.lista{
+
+.lista {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
+    background-color: rgb(126, 126, 55);
+    justify-content: auto;
+    align-items: auto;
 }
-.lista li{
+
+.lista li {
     list-style: none;
-    margin:5px 200px 0 20px;
+    margin: 5px 200px 0 20px;
+    font-size: clamp(12px, 1.2vw, 20px);
 }
-.lista li::before{
+
+.lista li::before {
     content: '\2714';
     padding-left: 4px;
 }
-.elemento{
+
+.lista1 {
+    background-color: yellowgreen;
+    flex-grow: 0.5;
+}
+
+.elemento {
     text-decoration: underline;
 }
-strong{
+
+.paragrafofooter,
+.paragrafofinal {
+    font-size: clamp(12px, 1.2vw, 16px);
+}
+
+strong {
     color: #17492d;
 }
-a{
+
+a {
     color: #1a3626;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1530px) {
+    .lista {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: justify;
+    }
+
+    .elemento {
+        /*margin:0;*/
+        background: red;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .central p,
+    a,
+    .paragrafofinal {
+        text-indent: 0.5cm;
+        word-spacing: 0.1cm;
+        line-height: 0.6cm;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecario>p {
+        width: 50%;
+    }
 }
