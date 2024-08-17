@@ -113,9 +113,11 @@ font-family: var(--fontprincipal);
     background-color: #144f30;
     color: white;
     font-weight: bold;
-    font-size: clamp(5px, 1.2vw, 25px);
     padding-bottom: 10px;
     border-radius: 15px 15px 0 0;
+}
+.topotabela > p{
+    font-size: clamp(5px, 1.4vw, 25px);
 }
 .info{
     padding: 0 10px;
