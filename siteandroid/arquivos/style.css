@@ -154,14 +154,13 @@ p {
 
 .info {
     padding: 0 10px;
-    background-color: yellow;
 }
 
 .lista {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: rgb(126, 126, 55);
+   
     justify-content: auto;
     align-items: auto;
 }
@@ -178,7 +177,6 @@ p {
 }
 
 .lista1 {
-    background-color: yellowgreen;
     flex-grow: 0.5;
 }
 
