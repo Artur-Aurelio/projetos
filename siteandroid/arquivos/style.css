@@ -222,4 +222,7 @@ a {
     .cabecario>p {
         width: 70%;
     }
+    .cabecario nav {
+        padding: 5px;
+    }
 }
