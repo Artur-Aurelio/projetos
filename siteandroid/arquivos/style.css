@@ -205,11 +205,6 @@ a {
         flex-wrap: wrap;
         text-align: justify;
     }
-
-    .elemento {
-        /*margin:0;*/
-        background: red;
-    }
 }
 
 @media screen and (max-width: 900px) {
