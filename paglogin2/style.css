@@ -23,12 +23,13 @@ body{
     background: linear-gradient(90deg, #903b2c, #f1aa45);
     /*backdrop-filter: blur(2px);*/
     padding-bottom: 5%;
-    text-align: center;
+    text-align: justify;
 }
 .title{
     font-size: clamp(18px, 2.5vw, 24px);
     margin-bottom: 4vh;
     color: #211415;
+    text-align: center;
 }
 .type{
     display: block;
@@ -41,7 +42,7 @@ body{
 }
 .espaco{
     width: 30vw;
-    height: 4vh;
+    height: 3vh;
     border-radius: 5px;
     background-color: white;
     border:none;
@@ -87,12 +88,4 @@ body{
     background-color: #f1aa45;
     color: black;
     transition: 0.2s;
-}
-@media screen and (max-width: 700px){
-    .espaco{
-        width: 50vw;
-    }
-    .botao{
-        width: 50vw;
-    }
 }
