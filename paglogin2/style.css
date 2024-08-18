@@ -90,7 +90,7 @@ body{
 }
 @media screen and (max-width:700px){
     .box{
-        width: 80%;
+        width: 80vw;
         color: red;;
     }
 }
