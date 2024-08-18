@@ -8,6 +8,7 @@ body{
     background-image: url('imagem/file.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #903b2c;
 }
 .box{
     width: 30vw;/*ajeitar (pode usar clamp)*/
