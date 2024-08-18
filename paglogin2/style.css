@@ -11,7 +11,7 @@ body{
     background-color: #903b2c;
 }
 .box{
-    width: 50vw;/*ajeitar (pode usar clamp)*/
+    width: clamp(250px, 300px, 500px);/*ajeitar (pode usar clamp)*/
     /*height: 30vh;*/
     border: 2px solid black;
     border-radius: 50px 0px 50px 0px;
@@ -26,9 +26,12 @@ body{
     text-align: justify;
 }
 .title{
-    font-size: clamp(18px, 2.5vw, 24px);
+    font-size: clamp(18px, 2.5vw, 25px);
     margin-bottom: 4vh;
     color: #211415;
+    text-align: center;
+}
+.infos{
     text-align: center;
 }
 .type{
@@ -38,36 +41,35 @@ body{
     margin: 0.5vh;
     width: 20vw;
     padding: 0.5vh;
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(14px, 2vw, 18px);
 }
 .espaco{
-    width: 30vw;
-    height: 3vh;
+    width: clamp(200px, 60vw, 300px);
+    height: 3.5vh;
     border-radius: 5px;
     background-color: white;
     border:none;
     padding: 0.5vh;
-    
 }
 .botao{
     display: block;
     margin: auto;
     margin-top: 5vh;
     text-align: center;
-    width: 30vw;
+    width: clamp(200px, 60vw, 300px);
     padding: 1vh;
     font-weight: bold;
     color: white;
     background-color: #5b300b;
     border: none;
     border-radius: 5px;
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(14px, 2vw, 18px);
 }
 .title::after{
     content: '';
     display: block;
     margin: 0 auto;
-    width: 25vw;
+    width: clamp(150px, 16vw, 500px);
     height: 0.5vh;
     background-color: white;
 }
@@ -89,3 +91,12 @@ body{
     color: black;
     transition: 0.2s;
 }
+@media screen and (max-width: 380px){
+    .box{
+        width: 70vw;
+    }
+    .espaco{
+        height: 3vh;
+    }
+}
+
