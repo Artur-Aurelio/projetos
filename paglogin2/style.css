@@ -11,7 +11,7 @@ body{
     background-color: #903b2c;
 }
 .box{
-    width: clamp(40vw, 50vw, 50vw);/*ajeitar (pode usar clamp)*/
+    width: 50vw;/*ajeitar (pode usar clamp)*/
     /*height: 30vh;*/
     border: 2px solid black;
     border-radius: 50px 0px 50px 0px;
