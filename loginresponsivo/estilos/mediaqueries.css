@@ -1,0 +1,90 @@
+@media screen and (min-width: 375px){
+    .principal{
+        width: 80vw;
+    }
+    .parag{
+        font-size: 0.8em;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width:768px){
+    .principal{
+        width: 50vw;
+    }
+    .titulo{
+        font-size: 2.3em;
+    }
+    .parag{
+        font-size: 1em;
+    }
+    .formulario input{
+        font-size: 0.9em;
+    }
+    .cadastro{
+        width: 40vw;
+    }
+    .enviar{
+        width: 17vw;
+    }
+    .esqueci{
+        width: 22vw;
+    }
+}
+/*pcs*/
+@media screen and (min-width: 1024px){
+    .principal{
+        width: 40vw;
+    }
+    .cadastro{
+        width: 32vw;
+    }
+    .enviar{
+        width: 12vw;
+    }
+    .esqueci{
+        width: 19vw;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .principal{
+        width: 30vw;
+    }
+    .cadastro{
+        width: 25vw;
+    }
+    .enviar{
+        width: 10vw;
+    }
+    .esqueci{
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .principal{
+        width: 30vw;
+    }
+    .titulo{
+        font-size: 5em;
+    }
+    .parag{
+        font-size: 1.8em;
+    }
+    .formulario input{
+        font-size: 1.7em;
+    }
+    .cadastro{
+        width: 25vw;
+    }
+    .enviar{
+        width: 10vw;
+    }
+    .esqueci{
+        width: 15vw;
+    } 
+    .useric, .passic{
+        font-size: 40px;
+    }
+}

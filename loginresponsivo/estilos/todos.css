@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(198, 198, 198);
+}
+.principal{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 90vh;
+    border-radius: 20px;
+}
+.imagem{
+    height: 30vh;
+    background: black url(../imagens/pexels-sevenstormphotography-443399.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.titulo{
+    text-align: center;
+    padding: 10px;
+}
+.parag{
+    text-align: justify;
+    padding: 0 1em;
+    font-size: 0.75em;
+}
+.formulario{
+    text-align: center;
+}
+.cadastro{
+    width: 70vw;
+    background-color: rgb(212, 212, 212);
+    text-indent: 1em;
+}
+.botao{
+    width: 40vw;
+    background-color: rgb(61, 61, 144);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.enviar{
+   width: 28vw;
+}
+.useric, .passic{
+    text-align: left;
+    padding-top: 10px;
+    padding-left:30px;
+    font-size: 20px;
+}
+.cadastro, .botao{
+    margin-top: 8px;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+}
+.pass{
+    margin-bottom: 8px;
+}
+.cadastro:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.botao:hover{
+    background-color: white;
+    color: rgb(61, 61, 144);
+    border: 2px solid rgb(61, 61, 144);
+}
+.useric::before{
+    content: '\f406';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+}
+.passic::before{
+    content: '\f084';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+}
