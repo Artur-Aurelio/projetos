@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) and (max-width: 2560px){
+    .principal > h1{
+        font-size: 25pt;
+    }
+    #iano{
+        width: 100px;
+    }
+    #ienviar{
+        width: 400px;
+    }
+    .container{
+        width: 500px;
+    }
+}

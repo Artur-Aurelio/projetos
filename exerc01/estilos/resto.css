@@ -1,0 +1,58 @@
+/*media queries*/
+
+@media screen and (min-width: 768px){
+    .info{
+        width: 60vw;
+    }
+    .cont-img{
+        height: 50vh;
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+    }
+    .titulo{
+        font-size: 20pt;
+    }
+    .hora{
+        font-size: 15pt;
+    }   
+}
+
+@media screen and (min-width:1024px){
+    .info{
+        width: 40vw;
+    }
+    .cont-img{
+        height: 60vh;
+    }
+    .img{
+        width: 275px;
+        height: 275px;
+    }
+    .titulo{
+        font-size: 20pt;
+    }
+    .hora{
+        font-size: 15pt;
+    } 
+}
+
+@media screen and (min-width: 2560px){
+    .info{
+        width: 40vw;
+    }
+    .cont-img{
+        height: 60vh;
+    }
+    .img{
+        width: 550px;
+        height: 550px;
+    }
+    .titulo{
+        font-size: 35pt;
+    }
+    .hora{
+        font-size: 25pt;
+    }
+}
