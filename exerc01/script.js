@@ -8,8 +8,8 @@ estilo.rel = "stylesheet";//tipo
 
 horamensagem.innerHTML = `Agora são ${horadia}:${minutodia} horas`
 
-if(horadia >= 5 && horadia <= 12){
-}else if(horadia >= 13 && horadia <= 17){
+if(horadia >= 5 && horadia <= 11){
+}else if(horadia >= 12 && horadia <= 17){
     imagem.src = "imagens/tarde.jpg";
     estilo.href = "estilos/tarde.css"
 }else{
