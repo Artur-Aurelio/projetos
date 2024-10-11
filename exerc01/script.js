@@ -1,11 +1,12 @@
 var data = new Date();
 var horadia = data.getHours();
+var minutodia = data.getMinutes();
 var imagem = document.querySelector(".img")
 var horamensagem = document.querySelector(".hora")
 var estilo = document.createElement("link");//se fosse js seria "script"
 estilo.rel = "stylesheet";//tipo
 
-horamensagem.innerHTML = `Agora são ${horadia} horas`
+horamensagem.innerHTML = `Agora são ${horadia}:${minutodia} horas`
 
 if(horadia >= 5 && horadia <= 12){
 }else if(horadia >= 13 && horadia <= 17){
