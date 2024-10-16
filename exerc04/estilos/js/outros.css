@@ -1,0 +1,42 @@
+@media screen and (min-width: 425px){
+    .principal{
+        width: 70vw;
+    }
+}
+@media screen and (min-width: 768px){
+    .principal{
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1024px){
+    .principal{
+        width: 30vw;
+    }
+}
+@media screen and (min-width:1440px){
+    .principal{
+        width: 22vw;
+    }
+}
+@media screen and (min-width: 2560px){
+    header{
+        font-size: 45pt;
+    }
+    .principal{
+        width: 18vw;
+        font-size: 25pt;
+    } 
+    .inputnum{
+    
+        width: 350px;
+        height: 40px;
+    }
+    .enviar{
+        width: 350px;
+        font-size: 20pt;
+    }
+    .resp{
+        font-size: 20pt;
+    }
+
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #454847;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: 22pt;
+    font-weight: bold;
+    color: white;
+}
+.principal{
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 15pt;
+    padding: 10px;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.34);
+}
+.inicio, .fim, .salto{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inputnum{
+    border-radius: 15px;
+    border-style: none;
+    background-color: #3d4753;
+    font: bold 12pt "Arial";
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 30px;
+}
+.enviar{
+    padding: 10px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #a6aba9;
+    font-weight: bold;
+    cursor: pointer;
+}
+.resp{
+    margin-top: 10px;
+    font-size: 12pt;
+    text-align: center;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.496);
+    font-size: 10pt;
+    font-weight: normal;
+}
+input:focus{
+    outline-color: black;
+}
