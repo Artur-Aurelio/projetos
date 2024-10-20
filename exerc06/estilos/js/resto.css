@@ -1,0 +1,14 @@
+@media screen and (min-width:425px) and (max-width: 2560px) {
+    .container{
+        width: 400px;
+    }
+    #inum{
+        width: 225px;
+    }
+    #ialocar{
+        width: 120px;
+    }
+    #ianalisar{
+        width: 300px;
+    }
+}
