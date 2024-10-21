@@ -51,6 +51,7 @@ function media(n4){
 
 document.querySelector("#ialocar").addEventListener("click", ()=>{
     var num = document.querySelector("#inum").value;
+    var num2 = document.querySelector("#inum");
 
     if(num.length == 0 || Number(num) < 0 || Number(num) > 500){
         alert("INSIRA UM VALOR VÁLIDO")
@@ -69,6 +70,9 @@ document.querySelector("#ialocar").addEventListener("click", ()=>{
             cont++;
         }
     }
+
+    num2.value = "";//toda vez q envia, vai zerar o valor
+    num2.focus();//fica piscando/volta pra escrever de novo
 })
 
 document.querySelector("#ianalisar").addEventListener("click", ()=>{
