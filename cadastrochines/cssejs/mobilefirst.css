@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #333333);
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    margin-bottom: 10px;
+}
+header h3{
+    font-size: 12pt;
+}
+.escolha{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.chinesounao{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.chinesounao input{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.385);
+    cursor: pointer;
+}
+.cadastro, .cadastrochines, .acessochines{
+    display: none;
+    background-color: #f0f0f0;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.385);
+}
+.cadastro p, .cadastrochines p{
+    font-size: 13pt;
+    padding: 5px 0 5px 0;
+}
+.titulo, .titulochines{
+    text-align: center;
+    padding: 10px;
+    font-size: 15pt;
+}
+.info, .infochines{
+    display: flex;
+    justify-content: center;
+}
+.info input, .infochines input{
+    border: solid 2px gray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+.entrar{
+    border: solid 2px gray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(172, 172, 172);
+}
+.acessochines h3{
+    text-align: center;
+    font-size: 15pt;
+    margin-bottom: 20px;
+}
+.acessochines p{
+    margin-bottom: 10px;
+}
+.numeropessoas::after{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+.contagempessoa{
+    line-height: 25px;
+}
+input:focus{
+    outline-color: black;
+}
