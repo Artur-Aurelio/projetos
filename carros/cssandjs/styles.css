@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background: radial-gradient(circle, #7930A0 30%, #6F0FD7 100%)
+}
+.topo{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+ul{
+    display: flex;
+}
+li{
+    padding-right: 50px;
+    cursor: pointer;
+}
+.cont-img{
+    display: flex;
+    width: 75vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cont-img img{
+    transform: rotate(-25deg);
+    transition: 1s ease;
+}
+.texto{
+    text-align: right;
+}
+.texto p {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.texto h3{
+    border-bottom: solid 5px white;
+    font-size: 40pt;
+}
+.infocarro{
+    text-align: justify;
+}
+#saibam{
+    background-color: #B0E91A;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    font-size: 12pt;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.avancar{
+    position:absolute;
+    top: 40%;
+    cursor: pointer;
+}
+.avancar img{
+    width: 40px;
+    height: 40px;
+}
+.esq{
+    left: 5%;
+    transform: rotate(180deg);
+}
+.dir{
+    right: 5%;
+}
+.contagem{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 40pt;
+}
+.cont-barra{
+    display: flex;
+    margin-top: 10px;
+}
+.barra{
+    background-color: white;
+    width: 45px;
+    height: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.barraativa{
+    background-color: gray;
+}
+

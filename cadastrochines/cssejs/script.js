@@ -5,8 +5,18 @@ var cadastrochines = document.querySelector(".cadastrochines");
 var entrarcomum = document.querySelector("#ientrar");
 var entrarchines = document.querySelector("#ientrarchines")
 var acessochines = document.querySelector(".acessochines")
-var armazenarusuario = [];
-var armazenarsenha = [];
+var armazenarpessoas = [];
+
+//objeto
+class Pessoa{
+    constructor(pusuario,psenha){
+        this.usuario = pusuario,
+        this.senha = psenha;
+    }
+    retornar(){
+        return `Usuário: ${this.usuario} <br> Senha: ${this.senha}`
+    }
+}
 
 ircadastro.addEventListener("click", ()=>{
     cadastrocomum.style.display = "block";
@@ -23,9 +33,9 @@ souchines.addEventListener("click", ()=>{
 entrarcomum.addEventListener("click", ()=>{
     var usuario = document.querySelector("#iusuario");
     var senha = document.querySelector("#isenha");
+    var p = new Pessoa(usuario.value, senha.value)
 
-    armazenarusuario.push(usuario.value);
-    armazenarsenha.push(senha.value);
+    armazenarpessoas.push(p)
 
     usuario.value = '';
     usuario.focus()
@@ -47,10 +57,11 @@ entrarchines.addEventListener("click", ()=>{
 
         acessochines.style.display= "block"
         cadastrochines.style.display = "none";
-        numeropessoas.innerHTML += armazenarsenha.length;
-
-        for(let i = 0; i < armazenarusuario.length; i++){
-            contagempessoa.innerHTML += `<strong>Pessoa 0${i+1}</strong> <br> Usuário: ${armazenarusuario[i]} <br> Senha: ${armazenarsenha[i]} <br>`
+        
+        numeropessoas.innerHTML += armazenarpessoas.length;
+        
+        for(let i = 0; i < armazenarpessoas.length; i++){
+            contagempessoa.innerHTML += `<strong>Pessoa 0${i+1}</strong> <br> ${armazenarpessoas[i].retornar()} <br>`
             
         }
     }
