@@ -128,6 +128,8 @@ strong{
     background-color: #2C2C2C;
     color: white;
     text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 .continf-smartband{
     width: 300px;
