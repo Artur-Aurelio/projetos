@@ -1,0 +1,139 @@
+@media screen and (min-width:760px) and (max-width:2561px) {
+    body{
+        padding: 0;
+    }
+    header{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    #iburguer{
+        display: none;
+    }
+    .titulo{
+        font-size: 20pt;
+        padding: 10px;
+    }
+    .listanaocelular{
+        display: flex;
+        font-size: 12pt;
+        padding: 5px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .listanaocelular li{
+        margin-left: 10px;
+    }
+    .listanaocelular li:hover{
+        background-color: #3D81BE;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        transition: 0.5s;
+    }
+    .listanaocelular li:not(:hover){
+        background-color: #2C2C2C;
+        transition: 0.25s;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .trabalho{
+        background-image: url("https://d1p6nzzdute2g.cloudfront.net/lojas/loja-1197/f0362fae-c664-4f3c-9cad-b6465d3375d3");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 95% center;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        padding-left: 5vw;
+    }
+    .trabalho h2{
+        font-size: 20pt;
+        width: 250px;
+    }
+    .trabalho p{
+        width: 35vw;
+        text-align: justify;
+        line-height: 20px;
+        text-indent: 20px;
+        font-size: 12pt;
+    }
+    .trabalho img{
+        display: none;
+    }
+    .topprods{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+    .cont-prodsel{
+        width: 100vw;
+    }
+    .conteiner-imgprodsel{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .conteiner-imgprodsel p{
+        width: 220px; 
+    }
+    .img-prodsel{
+        width:275px;
+        height: 250px;      
+    }
+    .continf-imgprodsel{
+        margin: 20px;
+    }
+    .cont-smartband{
+        background-image: url("https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1561435842.07369650!400x400!85.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 25% center;
+        display: flex;
+        align-items: center;
+        height: 300px;
+    }
+    .continf-smartband{
+        width: 50vw;
+        margin-left: auto;
+        padding-right: 12vw;
+    }
+    .continf-smartband h3{
+        font-size: 18pt;
+        margin: 0;
+    }
+    .continf-smartband p{
+        font-size: 10pt;
+    }
+    .smartband{
+        display: none;
+    }
+    .cont-vejamaissmart input{
+        font-size: 10pt;
+    }
+    .avaliacaocelular{
+        display: none;
+    }
+    /*.cont-avaliacoes{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }*/
+    .continf-avaliacoes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .avaliacoes{
+        margin: 20px;
+    }
+}
